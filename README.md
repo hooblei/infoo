@@ -1,7 +1,7 @@
 infoo
 =====
 
-A simple simple JavaScript inline notifications module like 'toastr' or 'notifer.js'
+A simple JavaScript inline notifications module like 'toastr' or 'notifer.js'
 
 
 Requirements
@@ -14,7 +14,7 @@ Requirements
 Usage
 -----
 
-Link the infoo .js and .css 
+Link the infoo .js and .css
 
     <link href="infoo.css" rel="stylesheet"/>
     ...
@@ -32,7 +32,7 @@ A error notificaition with an explicit title:
 
     info.error('Something went wrong!', 'Uh, Oh an Error!');
 
-Create a custom notification handlers:
+Create custom notification handlers:
 
     var omg = infoo.handler({
         title: 'OMG',
@@ -42,7 +42,7 @@ Create a custom notification handlers:
 
     omg('infoo is so easy');
 
-See Options for defaults and settings
+See Options for defaults
 
  
 Options
