@@ -1,0 +1,56 @@
+
+div.infoo {
+	position: fixed;
+	z-index: 9999;
+}
+
+div.infoo > div {
+    position: relative;
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 12px;
+}
+
+div.infoo.top-left {
+	top: 12px;
+	left: 12px;
+}
+
+div.infoo.top-right {
+	top: 12px;
+	right: 12px;
+}
+
+div.infoo.bottom-right {
+	right: 12px;
+	bottom: 12px;
+}
+
+div.infoo.bottom-left {
+	left: 12px;
+	bottom: 12px;
+}
+
+div.infoo > div.icon {
+    padding-left: 38px;
+}
+
+div.infoo > div.icon > span.icon {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px 0 0 4px;
+    width: 30px;
+}
+
+div.infoo > div.icon > span.icon i {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+
