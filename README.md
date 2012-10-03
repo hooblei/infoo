@@ -8,7 +8,7 @@ Requirements
 ------------
 
 *   jQuery >= 1.7
-*   Bootstrap alert (css + js moulde) >= 2.0
+*   Bootstrap alert (css + js module) >= 2.0
 
 
 Usage
