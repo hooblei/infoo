@@ -30,7 +30,7 @@ Success notificaition that will dismiss after 10 seconds:
 
 A error notificaition with an explicit title:
 
-    info.error('Something went wrong!', 'Uh, Oh an Error!');
+    infoo.error('Something went wrong!', 'Uh, Oh an Error!');
 
 Create custom notification handlers:
 
